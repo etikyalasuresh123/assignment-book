@@ -1,0 +1,17 @@
+{% extends 'website1/base.html'%}
+
+{%block body_block%}
+<div class="jumbotron">
+	<h3> Employee Details </h3>
+	<ul>
+		<li>Book Number: {{employee.name}}</li>
+		<li>Book Age: {{employee.age}}</li>
+		<li>Book price: {{employee.esal}}</li>
+		<li>Book Address: {{employee.eaddr}}</li>
+	</ul>
+     <a href="/EmployeeListView" class='btn btn-lg btn-success'>Back</a>
+
+	</div>
+	{%endblock%}   
+
+
